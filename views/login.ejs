@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LogIn</title>
+  </head>
+  <body>
+    <h1 style="text-align: center;">LogIn</h1>
+
+    <form style="text-align: center;" action="/login" method="POST">
+      <input type="number" id="phone" name="user_phone_number" placeholder="Phone Number" required>
+		  <input type="password" id="password" name="user_password" placeholder="Password" required>
+      <button type="submit">LogIn</button>
+    </form>
+
+		<p style="text-align: center;">New user? <a style="text-decoration: none; font-weight: bold; color: dodgerblue;" href="/signup">SignUp</a></p>
+  </body>
+</html>
